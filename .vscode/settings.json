@@ -1,0 +1,10 @@
+{
+    "pylint.args": [
+        "--disable=missing-module-docstring",
+        "--disable=missing-class-docstring",
+        "--disable=missing-function-docstring",
+        "--load-plugins",
+        "pylint_django",
+        "--django-settings-module=myapp.settings"
+    ]
+}
